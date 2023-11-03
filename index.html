@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Citatmaskinen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="quote-box">
+    <h2>The QuoteMachine</h2>
+    <blockquote id="quote">Loading...</blockquote>
+    <span id="author">Loading...</span>
+    <div id="buttons">
+        <button onclick="getRandomQuote(apiUrlRandom)">A random quote</button>
+        <button onclick="getLoveQuote(apiUrlLove)">A quote about love</button>
+        <button onclick="getWarQuote(apiUrlWar)">A quote about war</button>
+    </div>
+</div>
+
+
+
+    <script src="js/main.js"></script>   
 </body>
 </html>
