@@ -7,11 +7,11 @@
     font-family: 'Playfair Display', serif;
 }
 body{
-    background: pink;
+    background: #F7C5CC;
 }
 .quote-box{
     background: #fff;
-    width: 700px;
+    width: 650px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +33,7 @@ body{
     width: 75px;
     height: 3px;
     border-radius: 3px;
-    background: rgb(46, 138, 66);
+    background: #CC313D;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -58,7 +58,7 @@ body{
     content: '';
     width: 20px;
     height: 2px;
-    background: rgb(46, 138, 66);
+    background: #CC313D;
     position: absolute;
     top: 50%;
     left: -30px;
@@ -71,13 +71,11 @@ body{
     justify-content: center;
 }
 
-
 .quote-box button{
-    background: rgb(46, 138, 66);
+    background: #CC313D;
     color:#fff;
     border-radius: 25px;
-    border: 1px solid rgb(46, 138, 66
-    );
+    border: 1px solid #CC313D;
     width: 150px;
     height: 50px;
     display: flex;
