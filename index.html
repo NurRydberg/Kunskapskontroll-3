@@ -8,19 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="quote-box">
+<div id="quote-box" class="container">
     <h2>The QuoteMachine</h2>
     <blockquote id="quote"></blockquote>
     <span id="author"></span>
     <div id="buttons">
-        <button onclick="getRandomQuote(apiUrlRandom)">A random quote &#10067</button>
-        <button onclick="getLoveQuote(apiUrlLove)">A love quote &#128152</button>
-        <button onclick="getWarQuote(apiUrlWar)">A war quote &#128163</button>
+        <button id="randomBtn" onclick="getRandomQuote(apiUrlRandom)">A random quote<br>&#10067</button>
+        <button id="loveBtn" onclick="getLoveQuote(apiUrlLove)">A love quote <br>&#128152</button>
+        <button id="warBtn" onclick="getWarQuote(apiUrlWar)">A war quote <br>&#128163</button>
+
     </div>
 </div>
-
-
-
     <script src="js/main.js"></script>   
 </body>
 </html>

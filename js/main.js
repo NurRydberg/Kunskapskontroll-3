@@ -1,6 +1,7 @@
 const apiUrlRandom = "https://api.quotable.io/random";
 const apiUrlLove = "https://api.quotable.io/random?tags=love";
 const apiUrlWar = "https://api.quotable.io/random?tags=war";
+// const apiUrlFun = "https://api.quotable.io/random?tags=humorous" Lägga till fler knappar? Fixa griden
 
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
