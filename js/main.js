@@ -2,7 +2,6 @@ const apiUrlRandom = "https://api.quotable.io/random";
 const apiUrlLove = "https://api.quotable.io/random?tags=love";
 const apiUrlWar = "https://api.quotable.io/random?tags=war";
 
-
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 
