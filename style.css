@@ -48,7 +48,8 @@ body{
 
 #quote-box span{
     display: block;
-    margin-top: 10px;
+
+    margin-bottom: 20px;
     float: right;
     position: relative;
 }
